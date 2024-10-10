@@ -18,7 +18,6 @@ public class SimpleJUnitTest {
     }
     @AfterEach
     void afterEach(){
-        int result = getResult();
         System.out.println("###    afterEach()\n");
         result = 0;
     }
